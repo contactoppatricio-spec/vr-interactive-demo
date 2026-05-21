@@ -49,9 +49,6 @@ environment setup, and user interaction testing.
 - GitHub
 
 ---
-
-## Playable Demo
-
 [Play the WebGL Demo](https://play.unity.com/en/games/70105386-b1cb-483b-8f1a-2a2d89854d5d/unityplaybuild)
 ---
 
