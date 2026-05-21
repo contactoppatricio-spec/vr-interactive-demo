@@ -55,9 +55,15 @@ environment setup, and user interaction testing.
 Prototype / Learning Project
 ---
 
+---
+
 ## Playable Demo
 
-[Play the WebGL Demo]([)](https://play.unity.com/en/games/70105386-b1cb-483b-8f1a-2a2d89854d5d/unityplaybuild)
+(---
+
+## Playable Demo
+
+(https://play.unity.com/en/games/70105386-b1cb-483b-8f1a-2a2d89854d5d/unityplaybuild)
 
 ---
 
@@ -68,32 +74,16 @@ This project was exported from Unity using WebGL build settings and deployed onl
 ### Deployment Steps
 
 1. Configure Unity WebGL Publishing Settings
-   - Compression Format: Gzip
+   - Compression Format: Brotli/Gzip
    - Decompression Fallback: Enabled
 
-2. Generate a new WebGL build
-   - Build folder
-   - TemplateData folder
-   - index.html
+2. Generate a WebGL build using Unity
 
-3. Compress and prepare build files for web deployment
+3. Prepare browser-compatible deployment files
 
-4. Upload the WebGL build to itch.io
+4. Upload and publish the project using Unity Play
 
-5. Configure browser play settings for HTML/WebGL compatibility
-
-6. Perform browser testing and validation
-
----
-
-## Deployment Challenges
-
-During deployment, several issues were identified and resolved:
-
-- GitHub file size limitations
-- WebGL compression compatibility
-- Browser loading issues
-- Build optimization for online hosting
+5. Validate browser loading and interaction behavior
 
 ---
 
@@ -102,5 +92,35 @@ During deployment, several issues were identified and resolved:
 - Browser compatibility testing
 - Environment interaction validation
 - Scene loading behavior
-- Performance observation
 - WebGL deployment workflow
+- Performance observation)
+
+---
+
+## WebGL Deployment Process
+
+This project was exported from Unity using WebGL build settings and deployed online for browser-based testing.
+
+### Deployment Steps
+
+1. Configure Unity WebGL Publishing Settings
+   - Compression Format: Brotli/Gzip
+   - Decompression Fallback: Enabled
+
+2. Generate a WebGL build using Unity
+
+3. Prepare browser-compatible deployment files
+
+4. Upload and publish the project using Unity Play
+
+5. Validate browser loading and interaction behavior
+
+---
+
+## QA Focus Areas
+
+- Browser compatibility testing
+- Environment interaction validation
+- Scene loading behavior
+- WebGL deployment workflow
+- Performance observation
