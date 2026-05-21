@@ -55,11 +55,6 @@ environment setup, and user interaction testing.
 Prototype / Learning Project
 ---
 
----
-
-## Playable Demo
-
-(---
 
 ## Playable Demo
 
